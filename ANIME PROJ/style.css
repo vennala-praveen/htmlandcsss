@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width:100%;
+    height: 120vh;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-right: 5%; 
+}
+
+.logo h2 a{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Serif JP', serif;
+    margin-top: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus{
+    border-bottom: 2px solid white;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: black;
+    font-size: 70px;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+button{
+    width: 180px;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 0;
+    background: #000;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 1.0s;
+}
+
+.card1{
+    background-image: url(Aizen.jpeg);
+    margin-left: 100px;
+}
+
+.card2{
+    background-image: url(Sung.jpeg);
+    
+}
+
+.card3{
+    background-image: url(Nagi.jpeg);
+    margin-left: 100px;
+}
+
+.card4{
+    background-image: url(gojo.jpeg);
+
+}
+
+.card5{
+    background-image: url(Ichigo.jpeg);
+    margin-left: 100px;
+}
+
+.card6{
+    background-image: url(Isagi.jpeg);
+}
+
+.card3 h5{
+    color: black;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
