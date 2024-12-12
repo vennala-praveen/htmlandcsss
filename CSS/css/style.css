@@ -1,11 +1,87 @@
-h1{
-    color: purple;
-    font-size: 50px;
-    border-radius: 10px;
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+div{
+    float: left;
+    height: 400px;
+    width: 33.333%;
+}
+.one{
+    background: yellow;
 }
 
-h2{
-    color: aquamarine;
-    font-size: 50px;
-    border-radius: 10px;
+.two{
+    background: green;
+}
+
+.three{
+    background: red;
+}
+
+
+.pos{
+    border: 5px solid red;
+    background: yellow;
+    margin-top: 40px;
+    position: static;
+}
+
+.mat{
+    background: blue;
+    color: aliceblue;
+    position: relative;
+    top: 10px;
+}
+
+.too{
+    background: green;
+    color: white;
+    position: relative;
+    top: 23px;
+}
+
+.special{
+    background: lightcoral;
+    font-size: 15.9px;
+    position: absolute;
+    right: 135px;
+}
+
+.link{
+    clear: both;
+}
+
+body{
+    background: black;
+}
+
+.banner h1{
+    color: white;
+    background: lightcoral;
+    text-transform: capitalize;
+    padding: 5px;
+    position: relative;
+    top: 18.9px;
+}
+
+@media screen and (min-width:576px){
+    body{
+        background: white;
+    }
+    .banner{
+        background:black ;
+        padding: 5px;
+        position: relative;
+        top: 40px;
+    }
+    h1{
+        font-size: 30px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    
 }
