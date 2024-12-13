@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    top: 30vh;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    transform: rotateX(70deg);  
+    top: 10rem;
+    animation: motion 5s infinite ease-in-out;
+}
+
+.a{
+    height: 180px;
+    width: 180px;
+    border: 5px solid aliceblue;
+    animation-delay: 200ms;
+}
+
+.b{
+    height: 160px;
+    width: 160px;
+    border: 5px solid rgb(67, 49, 186);
+    animation-delay: 300ms;
+}
+
+.c{
+    height: 140px;
+    width: 140px;
+    border: 5px solid rgb(60, 186, 49);
+    animation-delay: 400ms;
+}
+
+.d{
+    height: 120px;
+    width: 120px;
+    border: 5px solid rgba(49, 179, 186, 0.478);
+    animation-delay: 500ms;
+}
+
+.e{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(186, 170, 49);
+    animation-delay: 600ms;
+}
+
+.f{
+    height: 80px;
+    width: 80px;
+    border: 5px solid rgb(186, 49, 56);
+    animation-delay: 700ms;
+}
+
+.g{
+    height: 60px;
+    width: 60px;
+    border: 5px solid rgb(186, 49, 143);
+    animation-delay: 800ms;
+}
+
+.h{
+    height: 40px;
+    width: 40px;
+    border: 5px solid rgb(186, 83, 49);
+    animation-delay: 900ms;
+}
+
+.i{
+    height: 20px;
+    width: 20px;
+    border: 5px solid #ede9e5;
+    animation-delay: 1000ms;
+}
+
+.ball{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f,inset -20px 0 300px #0ff, 
+    0 0 50px #fff, -10px 0 80px #f0f,10px 0 80px #0ff;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: -1;
+    animation: jump 5s infinite ease-in-out;
+}
+
+@keyframes motion{
+    0%,100%{
+        transform: translateY(100px) rotateX(70deg);
+    }
+    50%{
+        transform: translateY(-100px) rotateX(70deg);
+    }
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(-5rem);
+    }
+    50%{
+        transform: translateY(4rem);
+    }
+    100%{
+        transform: translateY(-5rem);
+    }
+}
+
+
