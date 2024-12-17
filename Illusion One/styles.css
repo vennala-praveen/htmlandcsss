@@ -40,6 +40,8 @@ body{
 }
 
 
+
+
 @keyframes spin{
     0%{
         transform: scale(1) rotate(0deg);
