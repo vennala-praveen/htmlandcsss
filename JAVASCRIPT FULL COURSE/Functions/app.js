@@ -174,3 +174,40 @@ if(dice==6){
 if(dice > 6 || dice <= 0){
     console.log("U didn't roll the dice");
 }
+
+
+// Loops 
+// Repeatedly run a block of code while condition is true
+// while loop (i don't count, plz use while loop)
+
+let amount = 15;
+
+while(false){
+    console.log("I have " + amount + " i will go to shopping");
+    amount--;
+}
+
+// Do while loop
+// Code block first, Second Condition
+// Runs at least
+
+let money = 20;
+
+do{
+    console.log("I have "+ money +" $ ");
+    money++;
+}while(money <10);
+
+
+// For Loop (i know the count, use for loop)
+// for(Initialization, Condition, Increment/Decrement)
+
+let j;
+
+// for(j=1; j <= 10; j++){
+//     console.log("Number is : "+ j);
+// }
+
+for(j=10; j >= 0; j--){
+    console.log("Number is : "+ j);
+}
