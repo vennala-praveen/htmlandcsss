@@ -211,3 +211,57 @@ let j;
 for(j=10; j >= 0; j--){
     console.log("Number is : "+ j);
 }
+
+
+// string properties and methods
+// Wrapper string object, Don't Memorize Methods
+
+let text = " Sung Jin-Woo ";
+
+const person1 = {
+    name : "Sung",
+    greeting: function(){
+        console.log("Heyy, How r u");
+        return text;
+    },
+};
+
+console.log(person1);
+console.log(person1.name);
+console.log(person1.greeting());
+console.log(text.length);
+console.log(text.toUpperCase());
+console.log(text.trim());
+
+
+// Template Literals - ES6+
+// Backtick Characters (``)
+// Interpolation ${} - Insert Expression(value)
+
+const firstName = "Sung Jin-Woo";
+const age1 = 27;
+
+const mat = `Hey it's me ${firstName}, My age is ${age1} years old.`;
+console.log(mat);
+
+
+//Array properties and Methods
+
+let carsName = ["BMW", "Audi", "Bugatti", "Bentley", "Ferrari", "Lamborghini", "Mustang"];
+
+console.log(carsName.length);
+console.log(carsName[5]);
+
+
+
+// Refernce vs Value
+// Primitive Data Types
+// String, Number, Symbol, Boolean, Undefined, Null
+// Arrays, Functions, Objects = object
+// typeOf
+
+// when assigning primitive data type value to a variable any changes are made directly to that value, without affecting original value.
+
+// when assigning non-primitive data type value to a variable is done by refernce so any changes will affect all the reference.
+
+
